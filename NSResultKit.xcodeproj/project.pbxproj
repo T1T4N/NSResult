@@ -25,6 +25,7 @@
 		6A6C7ADA25374F8B00F2ADE8 /* NSResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSResult.swift; sourceTree = "<group>"; };
 		6A6C7AE325375ECF00F2ADE8 /* NSResult+Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSResult+Block.swift"; sourceTree = "<group>"; };
 		6A6C7AE725375F0E00F2ADE8 /* NSResult+StaticMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSResult+StaticMap.swift"; sourceTree = "<group>"; };
+		6A6C7AFC253760A100F2ADE8 /* Example.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Example.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6A6C7B012537633200F2ADE8 /* Result+StaticMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+StaticMap.swift"; sourceTree = "<group>"; };
 		6A6C7B2B2537721D00F2ADE8 /* NSResultKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSResultKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6C7B2E2537721D00F2ADE8 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
@@ -93,7 +94,8 @@
 		6A6C7ACE25374E7400F2ADE8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6A6C7AB525374E6400F2ADE8 /* NSResult */,
+				6A6C7AFC253760A100F2ADE8 /* Example.playground */,
+				6A6C7AB525374E6400F2ADE8 /* NSResultKit */,
 			);
 			path = Sources;
 			sourceTree = "<group>";

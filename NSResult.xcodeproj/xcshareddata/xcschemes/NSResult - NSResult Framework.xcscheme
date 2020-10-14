@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A6C7AB225374E6400F2ADE8"
+               BlueprintIdentifier = "6A6C7B2A2537721D00F2ADE8"
                BuildableName = "NSResult.framework"
-               BlueprintName = "NSResult-iOS"
+               BlueprintName = "NSResult"
                ReferencedContainer = "container:NSResult.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -60,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A6C7AB225374E6400F2ADE8"
+            BlueprintIdentifier = "6A6C7B2A2537721D00F2ADE8"
             BuildableName = "NSResult.framework"
-            BlueprintName = "NSResult-iOS"
+            BlueprintName = "NSResult"
             ReferencedContainer = "container:NSResult.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

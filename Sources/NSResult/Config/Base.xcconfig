@@ -8,5 +8,48 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-//:configuration = Debug
 PRODUCT_NAME = $(PROJECT_NAME:c99extidentifier)
+RESOURCES_DIR = Sources/$(PRODUCT_NAME)/Resources
+
+SUPPORTED_PLATFORMS = macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator
+
+IPHONEOS_DEPLOYMENT_TARGET = 9.0
+MACOSX_DEPLOYMENT_TARGET = 10.10
+TVOS_DEPLOYMENT_TARGET = 9.0
+WATCHOS_DEPLOYMENT_TARGET = 2.0
+
+// Dynamic linking uses different default copy paths
+LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]           = $(inherited) '@executable_path/../Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=iphoneos*]         = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=iphonesimulator*]  = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=watchos*]          = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=watchsimulator*]   = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=appletvos*]        = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=appletvsimulator*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+
+INFOPLIST_FILE[sdk=iphoneos*] = $(RESOURCES_DIR)/Info-iOS.plist
+INFOPLIST_FILE[sdk=iphonesimulator*] = $(RESOURCES_DIR)/Info-iOS.plist
+INFOPLIST_FILE[sdk=macosx*] = $(RESOURCES_DIR)/Info-macOS.plist
+INFOPLIST_FILE[sdk=appletvos*] = $(RESOURCES_DIR)/Info-tvOS.plist
+INFOPLIST_FILE[sdk=appletvsimulator*] = $(RESOURCES_DIR)/Info-tvOS.plist
+INFOPLIST_FILE[sdk=watchos*] = $(RESOURCES_DIR)/Info-watchOS.plist
+INFOPLIST_FILE[sdk=watchsimulator*] = $(RESOURCES_DIR)/Info-watchOS.plist
+
+// OSX-specific default settings
+FRAMEWORK_VERSION[sdk=macosx*]                = A
+COMBINE_HIDPI_IMAGES[sdk=macosx*]             = YES
+
+// iOS-specific default settings
+TARGETED_DEVICE_FAMILY[sdk=iphone*]           = 1,2
+TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]  = 1,2
+
+// TV-specific default settings
+TARGETED_DEVICE_FAMILY[sdk=appletv*]          = 3
+TARGETED_DEVICE_FAMILY[sdk=appletvsimulator*] = 3
+
+// Watch-specific default settings
+TARGETED_DEVICE_FAMILY[sdk=watch*]            = 4
+TARGETED_DEVICE_FAMILY[sdk=watchsimulator*]   = 4
+
+ENABLE_BITCODE                                = YES
+ENABLE_BITCODE[sdk=macosx*]                   = NO

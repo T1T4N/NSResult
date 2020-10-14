@@ -1,0 +1,12 @@
+//
+//  Base.xcconfig
+//  NSResult
+//
+//  Created by Robert Armenski on 14.10.20.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//:configuration = Debug
+PRODUCT_NAME = $(PROJECT_NAME:c99extidentifier)

@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Sources/NSResultKit"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "Sources/NSResultKit/include/**/*.h"
+  spec.public_header_files = "Sources/NSResultKit/include/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

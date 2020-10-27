@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A6C7AC225374E6500F2ADE8 /* NSResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C7AC125374E6500F2ADE8 /* NSResultTests.swift */; };
-		6A6C7B3D2537724600F2ADE8 /* NSResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A6C7AB625374E6400F2ADE8 /* NSResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6C7B3D2537724600F2ADE8 /* NSResultKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A6C7AB625374E6400F2ADE8 /* NSResultKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A6C7B472537726300F2ADE8 /* NSResult+StaticMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C7AE725375F0E00F2ADE8 /* NSResult+StaticMap.swift */; };
 		6A6C7B482537726300F2ADE8 /* NSResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C7ADA25374F8B00F2ADE8 /* NSResult.swift */; };
 		6A6C7B492537726300F2ADE8 /* NSResult+Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C7AE325375ECF00F2ADE8 /* NSResult+Block.swift */; };
@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A6C7AB625374E6400F2ADE8 /* NSResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSResult.h; sourceTree = "<group>"; };
+		6A6C7AB625374E6400F2ADE8 /* NSResultKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSResultKit.h; sourceTree = "<group>"; };
 		6A6C7AB725374E6400F2ADE8 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
-		6A6C7ABC25374E6400F2ADE8 /* NSResultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSResultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6C7ABC25374E6400F2ADE8 /* NSResultKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSResultKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6C7AC125374E6500F2ADE8 /* NSResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSResultTests.swift; sourceTree = "<group>"; };
 		6A6C7AC325374E6500F2ADE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A6C7AD225374EB100F2ADE8 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
@@ -26,7 +26,7 @@
 		6A6C7AE325375ECF00F2ADE8 /* NSResult+Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSResult+Block.swift"; sourceTree = "<group>"; };
 		6A6C7AE725375F0E00F2ADE8 /* NSResult+StaticMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSResult+StaticMap.swift"; sourceTree = "<group>"; };
 		6A6C7B012537633200F2ADE8 /* Result+StaticMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+StaticMap.swift"; sourceTree = "<group>"; };
-		6A6C7B2B2537721D00F2ADE8 /* NSResult.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSResult.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6C7B2B2537721D00F2ADE8 /* NSResultKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSResultKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6C7B2E2537721D00F2ADE8 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		6A6C7B5C2537730C00F2ADE8 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		6A6C7B8F2537746D00F2ADE8 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
@@ -53,13 +53,13 @@
 		6A6C7AB425374E6400F2ADE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A6C7B2B2537721D00F2ADE8 /* NSResult.framework */,
-				6A6C7ABC25374E6400F2ADE8 /* NSResultTests.xctest */,
+				6A6C7B2B2537721D00F2ADE8 /* NSResultKit.framework */,
+				6A6C7ABC25374E6400F2ADE8 /* NSResultKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A6C7AB525374E6400F2ADE8 /* NSResult */ = {
+		6A6C7AB525374E6400F2ADE8 /* NSResultKit */ = {
 			isa = PBXGroup;
 			children = (
 				6A6C7AD125374E9E00F2ADE8 /* Config */,
@@ -70,22 +70,22 @@
 				6A6C7AD025374E8300F2ADE8 /* Resources */,
 				6A6C7B012537633200F2ADE8 /* Result+StaticMap.swift */,
 			);
-			path = NSResult;
+			path = NSResultKit;
 			sourceTree = "<group>";
 		};
-		6A6C7AC025374E6500F2ADE8 /* NSResultTests */ = {
+		6A6C7AC025374E6500F2ADE8 /* NSResultKitTests */ = {
 			isa = PBXGroup;
 			children = (
 				6A6C7AC125374E6500F2ADE8 /* NSResultTests.swift */,
 				6A6C7AEB25375F4000F2ADE8 /* Resources */,
 			);
-			path = NSResultTests;
+			path = NSResultKitTests;
 			sourceTree = "<group>";
 		};
 		6A6C7ACD25374E6E00F2ADE8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6A6C7AC025374E6500F2ADE8 /* NSResultTests */,
+				6A6C7AC025374E6500F2ADE8 /* NSResultKitTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 		6A6C7ACF25374E7D00F2ADE8 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				6A6C7AB625374E6400F2ADE8 /* NSResult.h */,
+				6A6C7AB625374E6400F2ADE8 /* NSResultKit.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -149,16 +149,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A6C7B3D2537724600F2ADE8 /* NSResult.h in Headers */,
+				6A6C7B3D2537724600F2ADE8 /* NSResultKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6A6C7ABB25374E6400F2ADE8 /* NSResultTests */ = {
+		6A6C7ABB25374E6400F2ADE8 /* NSResultKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A6C7ACA25374E6500F2ADE8 /* Build configuration list for PBXNativeTarget "NSResultTests" */;
+			buildConfigurationList = 6A6C7ACA25374E6500F2ADE8 /* Build configuration list for PBXNativeTarget "NSResultKitTests" */;
 			buildPhases = (
 				6A6C7AB825374E6400F2ADE8 /* Sources */,
 				6A6C7AB925374E6400F2ADE8 /* Frameworks */,
@@ -168,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = NSResultTests;
+			name = NSResultKitTests;
 			productName = NSResultTests;
-			productReference = 6A6C7ABC25374E6400F2ADE8 /* NSResultTests.xctest */;
+			productReference = 6A6C7ABC25374E6400F2ADE8 /* NSResultKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6A6C7B2A2537721D00F2ADE8 /* NSResult */ = {
+		6A6C7B2A2537721D00F2ADE8 /* NSResultKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A6C7B302537721E00F2ADE8 /* Build configuration list for PBXNativeTarget "NSResult" */;
+			buildConfigurationList = 6A6C7B302537721E00F2ADE8 /* Build configuration list for PBXNativeTarget "NSResultKit" */;
 			buildPhases = (
 				E1A9F635253D0A9E00902A6B /* Lint Code */,
 				6A6C7B262537721D00F2ADE8 /* Headers */,
@@ -187,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = NSResult;
+			name = NSResultKit;
 			productName = "NSResult-macOS";
-			productReference = 6A6C7B2B2537721D00F2ADE8 /* NSResult.framework */;
+			productReference = 6A6C7B2B2537721D00F2ADE8 /* NSResultKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6AF2BFCC25374DA0005BEAD6 /* Build configuration list for PBXProject "NSResult" */;
+			buildConfigurationList = 6AF2BFCC25374DA0005BEAD6 /* Build configuration list for PBXProject "NSResultKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,8 +222,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A6C7B2A2537721D00F2ADE8 /* NSResult */,
-				6A6C7ABB25374E6400F2ADE8 /* NSResultTests */,
+				6A6C7B2A2537721D00F2ADE8 /* NSResultKit */,
+				6A6C7ABB25374E6400F2ADE8 /* NSResultKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +263,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/usr/bin/env bash";
-			shellScript = "#!/usr/bin/env bash\n\n# Archiving (incorrectly) fails when issues are detected\n# even though swiftlint exit code is 0\n[[ \"${CONFIGURATION:-}\" != \"Release\" ]] || exit 0\n\nif ! command -v swiftlint > /dev/null; then\n    echo \"SwiftLint not installed, install via brew\" >&2\n    exit 0\nfi\n\n(( SCRIPT_INPUT_FILE_COUNT > 0 )) || exit 0\ndeclare -a LINT_PATHS\n\nwhile IFS=$'\\n' read -r line; do\n    LINT_PATHS+=(\"${!line}\")\ndone < <(seq -f \"SCRIPT_INPUT_FILE_%g\" 0 $((SCRIPT_INPUT_FILE_COUNT-1)))\n\nswiftlint lint \"${LINT_PATHS[@]}\" || true\n";
+			shellScript = "[[ \"${CONFIGURATION:-}\" != \"Release\" ]] || exit 0\n\nif ! command -v swiftlint > /dev/null; then\n    echo \"SwiftLint not installed, install via brew\" >&2\n    exit 0\nfi\n\n(( SCRIPT_INPUT_FILE_COUNT > 0 )) || exit 0\ndeclare -a LINT_PATHS\n\nwhile IFS=$'\\n' read -r line; do\n    LINT_PATHS+=(\"${!line}\")\ndone < <(seq -f \"SCRIPT_INPUT_FILE_%g\" 0 $((SCRIPT_INPUT_FILE_COUNT-1)))\n\nswiftlint lint \"${LINT_PATHS[@]}\" || true\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -324,9 +324,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S764D69629;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -349,6 +352,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.titantech.NSResultTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -389,9 +394,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = S764D69629;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -407,6 +415,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.titantech.NSResultTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -476,7 +486,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.titantech.NSResult;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -540,7 +550,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.titantech.NSResult;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -568,7 +578,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A6C7ACA25374E6500F2ADE8 /* Build configuration list for PBXNativeTarget "NSResultTests" */ = {
+		6A6C7ACA25374E6500F2ADE8 /* Build configuration list for PBXNativeTarget "NSResultKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A6C7AC725374E6500F2ADE8 /* Debug */,
@@ -577,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A6C7B302537721E00F2ADE8 /* Build configuration list for PBXNativeTarget "NSResult" */ = {
+		6A6C7B302537721E00F2ADE8 /* Build configuration list for PBXNativeTarget "NSResultKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A6C7B312537721E00F2ADE8 /* Debug */,
@@ -586,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AF2BFCC25374DA0005BEAD6 /* Build configuration list for PBXProject "NSResult" */ = {
+		6AF2BFCC25374DA0005BEAD6 /* Build configuration list for PBXProject "NSResultKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AF2BFCD25374DA0005BEAD6 /* Debug */,

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import NSResult
+@testable import NSResultKit
 
 class NSResultTests: XCTestCase {
 

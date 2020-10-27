@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6A6C7B2A2537721D00F2ADE8"
-               BuildableName = "NSResult.framework"
-               BlueprintName = "NSResult"
-               ReferencedContainer = "container:NSResult.xcodeproj">
+               BuildableName = "NSResultKit.framework"
+               BlueprintName = "NSResultKit"
+               ReferencedContainer = "container:NSResultKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6A6C7ABB25374E6400F2ADE8"
-               BuildableName = "NSResultTests.xctest"
-               BlueprintName = "NSResultTests"
-               ReferencedContainer = "container:NSResult.xcodeproj">
+               BuildableName = "NSResultKitTests.xctest"
+               BlueprintName = "NSResultKitTests"
+               ReferencedContainer = "container:NSResultKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6A6C7B2A2537721D00F2ADE8"
-            BuildableName = "NSResult.framework"
-            BlueprintName = "NSResult"
-            ReferencedContainer = "container:NSResult.xcodeproj">
+            BuildableName = "NSResultKit.framework"
+            BlueprintName = "NSResultKit"
+            ReferencedContainer = "container:NSResultKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

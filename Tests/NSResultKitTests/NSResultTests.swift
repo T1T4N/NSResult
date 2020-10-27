@@ -6,6 +6,9 @@
 //  Copyright © 2020 TitanTech. All rights reserved.
 //
 
+// watchOS fix together with SUPPORTED_PLATFORMS
+#if canImport(NSResultKit)
+
 import XCTest
 @testable import NSResultKit
 
@@ -25,3 +28,5 @@ class NSResultTests: XCTestCase {
     }
 
 }
+
+#endif //canImport(NSResultKit)

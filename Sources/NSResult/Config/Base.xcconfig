@@ -53,3 +53,7 @@ TARGETED_DEVICE_FAMILY[sdk=watchsimulator*]   = 4
 
 ENABLE_BITCODE                                = YES
 ENABLE_BITCODE[sdk=macosx*]                   = NO
+
+// Xcode 12+ fix for Carthage
+// https://github.com/Carthage/Carthage/issues/3019#issuecomment-665136323
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = $(inherited) arm64 arm64e armv7 armv7s armv6 armv8
